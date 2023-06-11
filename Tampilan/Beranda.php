@@ -128,7 +128,7 @@ $data_produk_laris = ambilData("SELECT * FROM produk_laris");
     <div class="col-4 mt-md-3 mt-sm-4 m-2" data-aos="fade-up" data-aos-duration="500">
         <div class="card mt-sm-4" style="width: 20rem;">
             <div class="container mt-4">
-                <img src="gambar/testi2.jpg" alt="Image1" class="Testi card-img-top img-fluid custom-img">
+                <img src="gambar/Testi2.jpg" alt="Image1" class="Testi card-img-top img-fluid custom-img">
             </div>
             <div class="card-body">
                 <h6 class="card-title">Testimoni 2</h6>
