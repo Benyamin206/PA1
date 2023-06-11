@@ -4,11 +4,12 @@ require "../Admin/fungsi_admin.php";
 $rand = rand(9999,1000);
 
 if(isset($_POST['submit'])){
-    $nama = $_POST['nama'];
-    $email = $_POST['email'];
-    $isi = $_POST['isi'];
-    $captcha = $_POST['captcha'];
-    $captchaRandom = $_POST['captcha-rand'];
+    $nama = htmlspecialchars($_POST['nama']);
+    $email = htmlspecialchars($_POST['email']);
+    $isi = htmlspecialchars($_POST['isi']);
+    $captcha = htmlspecialchars($_POST['captcha']);
+    $captchaRandom = htmlspecialchars($_POST['captcha-rand']);
+    
 
     if($captcha !== $captchaRandom){
         echo "<script>
