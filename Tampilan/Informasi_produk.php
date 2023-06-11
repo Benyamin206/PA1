@@ -152,7 +152,7 @@
                     $pesan_template = urlencode("Halo, saya tertarik untuk memesan produk " . $data_produk['nama_produk'] . 
                     ".\nTerimakasih.");
 
-                    echo  '<a href="https://wa.me/6281360344859?text=' . $pesan_template . '" 
+                    echo  '<a href="https://wa.me/6285277669222?text=' . $pesan_template . '" 
                     class="btn btn-success rounded-3" target = "_blank">Pesan</a>';
                     ?>
                     
