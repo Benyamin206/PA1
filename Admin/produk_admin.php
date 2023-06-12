@@ -77,7 +77,7 @@ $a = 1;
         <td><?= $dp['nama_produk']; ?></td>
         <td><?php echo $data_kategori['nama_kategori']; ?></td>
         <td><?= $dp['harga_produk']; ?></td>
-        <td style="max-width:1000px;overflow-wrap: break-word;" ><?= $dp['deskripsi']; ?></td>
+        <td><div style = "overflow-y : scroll; max-height : 200px"><?= $dp['deskripsi']; ?></div></td>
         <td><img src="../Gambar/gambar_produk/<?= $dp['gambar']; ?>" alt="Gambar Utama" width=100 height=100></td>
         <td><img src="../Gambar/gambar_carousel/<?= $dp['SC1']; ?>" alt="Slide 1" width=100 height=100></td>
         <td><img src="../Gambar/gambar_carousel/<?= $dp['SC2']; ?>" alt="Slide 1" width=100 height=100></td>
