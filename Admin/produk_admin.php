@@ -53,7 +53,7 @@ $a = 1;
 <a href="produk_laris.php"><button class="btn btn-primary">Produk Laris</button></a>
 
 <br><br>
-<div id="container">
+<div id="container" style = "overflow-y : scroll; max-height:700px">
   <table>
     <tr>
       <th>No.</th>
@@ -77,7 +77,7 @@ $a = 1;
         <td><?= $dp['nama_produk']; ?></td>
         <td><?php echo $data_kategori['nama_kategori']; ?></td>
         <td><?= $dp['harga_produk']; ?></td>
-        <td><div style = "overflow-y : scroll; max-height : 200px"><?= $dp['deskripsi']; ?></div></td>
+        <td><div style = "overflow-y : scroll; max-height : 130px"><?= $dp['deskripsi']; ?></div></td>
         <td><img src="../Gambar/gambar_produk/<?= $dp['gambar']; ?>" alt="Gambar Utama" width=100 height=100></td>
         <td><img src="../Gambar/gambar_carousel/<?= $dp['SC1']; ?>" alt="Slide 1" width=100 height=100></td>
         <td><img src="../Gambar/gambar_carousel/<?= $dp['SC2']; ?>" alt="Slide 1" width=100 height=100></td>
