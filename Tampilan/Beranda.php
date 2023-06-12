@@ -1,4 +1,4 @@
-0<?php 
+<?php 
 require "../Admin/fungsi_admin.php";
 
 $data_produk_laris = ambilData("SELECT * FROM produk_laris");
