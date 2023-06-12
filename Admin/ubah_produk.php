@@ -121,7 +121,7 @@
             <img id="slide3Preview" src="../Gambar/gambar_carousel/<?= $data_produk['SC3']; ?>" alt="" class="img-fluid mt-2" width=200 height=100>
             <input type="file" class="form-control" id="slide3" name="SC3">
         </div>
-        <a href="aksi_admin.php" class="btn btn-danger">Batal</a>
+        <a href="produk_admin.php" class="btn btn-danger">Batal</a>
         <button type="submit" class="btn btn-success" name="submit">Simpan</button>
             <br> <br><br>
     </form>
