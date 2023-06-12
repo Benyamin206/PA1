@@ -38,9 +38,9 @@ if( !isset($_SESSION["login"])){
     color: grey;
   }
 </style>
+    <h2 style="color : #722D2D">Ulasan</h2>
 
 <div class="container">
-    <h2 style="color : #722D2D">Ulasan</h2>
     <table>
       <thead>
         <tr>
