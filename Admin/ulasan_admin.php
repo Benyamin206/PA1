@@ -62,7 +62,7 @@ if( !isset($_SESSION["login"])){
           <td><?php echo $a; ?></td>
           <td><?php echo $df['nama_pengirim']; ?></td>
           <td><?php echo $df['email_pengirim']; ?></td>
-          <td><div style = "overflow-y : scroll; max-height : 250px"><?php echo $df['isi_ulasan']; ?></div></td>
+          <td><div style = "overflow-y : scroll; max-height : 200px"><?php echo $df['isi_ulasan']; ?></div></td>
           <td style="max-width:200px;overflow-wrap: break-word;"><?php echo $df['waktu']; ?></td>
           <td><a href="hapus_ulasan.php?id_ulasan=<?php echo $df['id_ulasan']; ?>" style="text-decoration:none; color:white"><button class="btn btn-danger">Hapus</button></a></td>
         </tr>
