@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);">
         <div class="container-fluid">
-            <a class="navbar-brand text-dark" href="#">
+            <a class="navbar-brand text-dark" href="Beranda.php">
                 <div class="d-flex align-items-center">
                     <img src="gambar/REAL.jpg" alt="#" class="img-fluid">
                     <h4 class="ml-2 mb-0">
